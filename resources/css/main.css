@@ -1,0 +1,448 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    /*zoom: 80%;*/
+    zoom: 82%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    /*zoom: ;*/
+    /*border-bottom: 20px solid rgba(17,13,34,0.9);*/
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+    border-radius: 15px 130px 130px 15px;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    /*border: 2px solid indianred;*/
+    /*color: black;*/
+    font-weight: 600;
+    background-color: rgba(8,7,20,0.7);
+    /*background: rgba;*/
+}
+
+.main-container{
+    /*nomad gradient    */
+    /*background: rgba(90,142,191,1);*/
+    /*background: -moz-linear-gradient(-45deg, rgba(90,142,191,1) 0%, rgba(90,142,191,1) 26%, rgba(90,142,191,1) 31%, rgba(18,67,120,1) 100%);*/
+    /*background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(90,142,191,1)), color-stop(26%, rgba(90,142,191,1)), color-stop(31%, rgba(90,142,191,1)), color-stop(100%, rgba(18,67,120,1)));*/
+    /*background: -webkit-linear-gradient(-45deg, rgba(90,142,191,1) 0%, rgba(90,142,191,1) 26%, rgba(90,142,191,1) 31%, rgba(18,67,120,1) 100%);*/
+    /*background: -o-linear-gradient(-45deg, rgba(90,142,191,1) 0%, rgba(90,142,191,1) 26%, rgba(90,142,191,1) 31%, rgba(18,67,120,1) 100%);*/
+    /*background: -ms-linear-gradient(-45deg, rgba(90,142,191,1) 0%, rgba(90,142,191,1) 26%, rgba(90,142,191,1) 31%, rgba(18,67,120,1) 100%);*/
+    /*background: linear-gradient(135deg, rgba(90,142,191,1) 0%, rgba(90,142,191,1) 26%, rgba(90,142,191,1) 31%, rgba(18,67,120,1) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a8ebf', endColorstr='#124378', GradientType=1 );*/
+
+    /*Blue-gradient*/
+    background: rgba(212,228,239,1);
+    background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -o-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -ms-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: linear-gradient(to bottom, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=0 );
+}
+
+.title {
+    color: white;
+}
+
+.colorCompleted{
+    background-color: rgba(191, 191, 191, 0.9)!important;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    /*text-decoration: underline;*/
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 10px 25px 15px 10px;
+    /*padding: 0px 5% 10px;*/
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        padding: 8px 18px;
+        margin-bottom: 0;
+        /*border-radius: 10px;*/
+        border: 2px solid whitesmoke;
+
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*extra style*/
+.display{
+    display: none;
+}
+.width-cards{
+    width: 18rem;
+}
+input[type="submit"]{
+    background-color: rgba(17,13,34,0.9);
+    color: white;
+    border: none;
+    padding: 5px 22px;
+    border-radius: 5px;
+}
+button[type="submit"]{
+    background-color: rgba(17,13,34,0.9);
+    color: white;
+    border: none;
+    padding: 5px 22px;
+    border-radius: 5px;
+}
+.fixed-flex{
+    display: flex!important;
+    flex-direction: row!important;
+    flex-wrap: wrap!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+    align-content: center!important;
+}
+.ct-border{
+    border-bottom: 5px groove rgba(70,164,70,0.72);
+}
+.ct-border-radius{
+    border-radius: 15px 15px 130px 15px;
+    background-color: rgba(134,223,118,0.9);
+}
+
