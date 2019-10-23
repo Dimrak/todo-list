@@ -28,7 +28,7 @@ class Helper
                 $html .= "File size is too big";
                 array_push($error, $html);
             }
-            $acceptedExtensions = ['csv','txt'];
+            $acceptedExtensions = ['csv','txt','xlsx','xls'];
             $resume = ($_FILES['fileToUpload']['name']);
             $extension = strtolower(substr($resume, strpos($resume, '.') + 1));
 //           strpos(original_str, search_str, start_pos)

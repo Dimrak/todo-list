@@ -19,5 +19,7 @@
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
     <script src="<?php echo urlStyle('js/main.js')?>"></script>
+    <!--Icons-->
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
 </head>
 <body>

@@ -8,7 +8,10 @@
         <h1 class="title">Todo-list</h1>
         <nav>
             <ul class="mx-auto">
-                <!--                <li><a href="#">Create</a></li>-->
+                <!--Add select to choose the file format that wants to be downloaded-->
+                <a href="<?php echo urlStyle('downloads/todo_template.csv')?>" download>
+                    <i class="fi-swluxl-download-solid"></i>
+                </a>
                 <li><a href="<?php echo url('todo/destroyAll') ?>">Destruction</a></li>
             </ul>
         </nav>
